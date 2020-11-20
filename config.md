@@ -6,6 +6,11 @@ cl_updaterate 128
 cl_interp 0
 cl_interp_ratio 1
 cl_lagcompensation 1
+mat_monitorgamma 1.60000
+mat_monitorgamma_tv_enabled 1
+cl_forcepreload 1
+cl_massive_hitches_at_surprising_times 1
+
 
 ```
 
@@ -23,10 +28,10 @@ cl_radar_rotate 1
 ### Crosshairs Settings
 
 ```
-cl_crosshairsize 3
-cl_crosshairgap -2
+cl_crosshairsize 1.5
+cl_crosshairgap -2.2
 cl_crosshairdot 0
-cl_crosshairthickness 1.15
+cl_crosshairthickness 1.12
 cl_crosshaircolor 1
 ```
 
